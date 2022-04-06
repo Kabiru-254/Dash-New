@@ -43,7 +43,7 @@ public class SplashScreen extends AppCompatActivity {
                             try {
                                 sleep(5 * 1000);
 
-                                Intent goToLogin = new Intent(getBaseContext(), Location.class);
+                                Intent goToLogin = new Intent(getBaseContext(), Login.class);
                                 startActivity(goToLogin);
                                 finish();
 

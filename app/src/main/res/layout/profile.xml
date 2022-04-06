@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@color/colorPrimaryLight"
     tools:context=".ui.Profile.Profile">
 
     <RelativeLayout
@@ -64,6 +64,7 @@
                     android:layout_height="49dp"
                     android:layout_marginStart="5dp"
                     android:textColor="#000000"
+                    android:background="@color/icons"
                     android:autofillHints="" />
 
             </LinearLayout>
@@ -95,6 +96,7 @@
                     android:layout_height="49dp"
                     android:layout_marginStart="5dp"
                     android:textColor="#000000"
+                    android:background="@color/icons"
                     android:autofillHints="" />
 
             </LinearLayout>
@@ -126,6 +128,7 @@
                     android:layout_height="49dp"
                     android:layout_marginStart="5dp"
                     android:textColor="#000000"
+                    android:background="@color/icons"
                     android:inputType="textPersonName"
                     android:autofillHints="" />
 
@@ -156,25 +159,25 @@
                     android:layout_height="49dp"
                     android:layout_marginStart="5dp"
                     android:textColor="#000000"
+                    android:background="@color/icons"
                     android:inputType="textPersonName"
                     android:autofillHints="" />
 
             </LinearLayout>
 
 
-
             <Button
-                android:layout_below="@+id/profItems3"
                 android:id="@+id/profileUpdateBT"
-                android:layout_marginTop="20dp"
                 android:layout_width="331dp"
                 android:layout_height="wrap_content"
-                android:background="@drawable/buttons"
+                android:layout_below="@+id/profItems3"
                 android:layout_centerHorizontal="true"
-                android:text="Update profile"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
                 android:fontFamily="casual"
-                android:textStyle="bold"
-                android:textColor="#000000" />
+                android:text="Update profile"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
 
             <Button
                 android:layout_below="@+id/profileUpdateBT"
@@ -187,7 +190,7 @@
                 android:background="@drawable/buttons"
                 android:layout_centerHorizontal="true"
                 android:text="Logout"
-                android:textColor="#000000" />
+                android:textColor="#FFFFFF" />
 
 
 

@@ -41,15 +41,12 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_offerRides, R.id.nav_profile, R.id.nav_history)
-                .setDrawerLayout(drawer)
-                .build();
+
 
         NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.nav_host_fragment);
         NavController navCo = Objects.requireNonNull(navHostFragment).getNavController();
-        NavigationUI.setupActionBarWithNavController(this, navCo, mAppBarConfiguration);
+
         NavigationUI.setupWithNavController(navigationView, navCo);
 
 

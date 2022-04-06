@@ -113,42 +113,7 @@
             android:inputType="number"
             />
 
-        <RadioGroup
-            android:id="@+id/rgDay"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
-            android:padding="10dp"
 
-            >
-
-            <RadioButton
-                android:id="@+id/rbToday"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Travel Today"
-                android:textColor="@color/colorPrimary"
-                android:fontFamily="casual"
-                android:textSize="17sp"
-                android:padding="5dp"
-                />
-
-            <RadioButton
-                android:id="@+id/rbTomorrow"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Travel Tomorrow"
-                android:textColor="@color/colorPrimary"
-                android:fontFamily="casual"
-                android:textSize="15sp"
-                android:padding="5dp"
-                />
-        </RadioGroup>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fbPostRides"
@@ -159,7 +124,7 @@
             android:layout_marginRight="20dp"
             android:layout_marginTop="20dp"
             android:padding="5dp"
-            android:background="@drawable/buttons"
+            android:background="@color/colorPrimaryLight"
             android:clickable="true"
             android:focusable="true"
             android:elevation="90dp"

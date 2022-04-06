@@ -56,8 +56,7 @@ public class Offer_Rides extends Fragment {
         etNumberOfSeats = root.findViewById(R.id.etNumberOfSeats);
         etFare = root.findViewById(R.id.etFare);
         floatingActionButton = root.findViewById(R.id.fbPostRides);
-        today = root.findViewById(R.id.rbToday);
-        tomorrow = root.findViewById(R.id.rbTomorrow);
+
         progressBar = root.findViewById(R.id.progressBar);
 
         floatingActionButton.setOnClickListener(new View.OnClickListener() {

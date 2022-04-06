@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorPrimaryLight"
     tools:context=".Login">
 
 
@@ -24,10 +25,10 @@
         android:padding="10dp"
         android:layout_marginTop="10dp"
         android:textColor="@color/colorPrimary"
-        android:fontFamily="casual"
+        android:fontFamily="@font/cookie"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:text="Login"
+        android:text="LOGIN"
         android:textSize="35sp"
         android:visibility="visible"
         />
@@ -41,6 +42,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:padding="10dp"
+        android:background="@color/icons"
         android:hint="Email address"
         android:inputType="textEmailAddress"
         android:gravity="center_horizontal"
@@ -55,6 +57,7 @@
         android:layout_marginRight="20dp"
         android:padding="10dp"
         android:hint="Password"
+        android:background="@color/icons"
         android:inputType="textPassword"
         android:gravity="center_horizontal"
         android:autofillHints="" />
@@ -95,7 +98,7 @@
         android:clickable="true"
         android:focusable="true"
         android:fontFamily="casual"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp"
         />
 
@@ -109,7 +112,7 @@
         android:clickable="true"
         android:focusable="true"
         android:fontFamily="casual"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp"
         />
 

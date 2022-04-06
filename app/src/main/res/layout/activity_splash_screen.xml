@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Dash Carpooling services"
-        android:textColor="@color/colorPrimaryText"
+        android:textColor="@color/icons"
         android:gravity="center_horizontal"
         android:textSize="25sp"
         android:textStyle="bold"
